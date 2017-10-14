@@ -38,8 +38,11 @@ class BenchTestCase(unittest.TestCase):
     def test_fib30(self):
         self.logger.info("Testing fibonacci 30")
         fib30_response = self.app.get('/fib30')
-        self.assertEqual(fib30_response._status_code, 200)
-        self.assertEqual({"fibonacci30": 1346269}, json.loads(fib30_response.data.decode()))
+        self.__is_correct(fib30_response,{"fibonacci30": 1346269})
+
+    def __is_correct(self, response, expected: dict):
+        self.assertEqual(response._status_code, 200)
+        self.assertEqual(expected, json.loads(response.data.decode()))
 
 
 if __name__ == '__main__':
