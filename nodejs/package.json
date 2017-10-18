@@ -1,0 +1,17 @@
+{
+  "name": "nodejsexample",
+  "version": "0.0.1",
+  "description": "A simple Nodejs server in order to make benchmarks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
