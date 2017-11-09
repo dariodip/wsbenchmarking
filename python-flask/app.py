@@ -3,7 +3,7 @@ from utils import fibonacci
 from data import models, db
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path='/static')
 db_source = db.db_source
 
 
@@ -44,6 +44,34 @@ def usrs_w_cities():
 def hello_page():
     return render_template('hello_page.html')
 
+
+@app.route('/hello/<user>')
+def hello_user_page(user: str):
+    return render_template('hello_name.html', name=user)
+
+
+@app.route('/fib30')
+def fib30_page():
+    return render_template('fib30.html', fib=fibonacci.fibonacci(30))
+
+@app.route('/single_user', methods=['GET'])
+def single_user_page():
+    user = db.session.query(models.Person).first()
+    return render_template('/single_user.html', user=user)
+
+
+@app.route('/all_users', methods=['GET'])
+def all_users_page():
+    users = [models.__get_user(u) for u in db.session.query(models.Person).all()]
+    print(users[0].keys())
+    return render_template('/all_users.html', users=users)
+
+
+@app.route('/users_with_cities', methods=['GET'])
+def usrs_w_cities_page():
+    u_w_c = db.session.query(models.Person, models.City).filter(models.Person.city_id == models.City.id).all()
+    els = [models.__get_user_w_city(u) for u in u_w_c]
+    return render_template('/all_users_w_city.html', els=els)
 
 if __name__ == '__main__':
     app.run()
