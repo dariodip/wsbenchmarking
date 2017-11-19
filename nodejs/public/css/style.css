@@ -1,8 +1,16 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-a {
-  color: #00B7FF;
+tr:nth-child(2n){
+  background-color: #bbbbbb;
+}
+
+tr:nth-child(2n+1) {
+  background-color: aliceblue;
+}
+
+tr:first-child {
+  background-color: white;
 }
