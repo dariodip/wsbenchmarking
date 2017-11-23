@@ -3,6 +3,8 @@ const router = express.Router();
 const fib = require('../utils/fibonacci');
 const person = require('../data/db').person;
 const city = require('../data/db').city;
+const request = require('request');
+
 
 router.get('/hello_world', function (req, res, next) {
     res.setHeader('Content-Type', 'application/json');
