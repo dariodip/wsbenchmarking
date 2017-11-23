@@ -1,10 +1,14 @@
 from flask import Flask, jsonify, render_template
 from utils import fibonacci
 from data import models, db
+import requests
+import json
 
 
 app = Flask(__name__, static_url_path='/static')
 db_source = db.db_source
+external_resource_URL = "https://jsonplaceholder.typicode.com"
+
 
 
 @app.route('/api/hello_world', methods=['GET'])
@@ -72,6 +76,38 @@ def usrs_w_cities_page():
     u_w_c = db.session.query(models.Person, models.City).filter(models.Person.city_id == models.City.id).all()
     els = [models.__get_user_w_city(u) for u in u_w_c]
     return render_template('/all_users_w_city.html', els=els)
+
+
+@app.route('/external/posts', methods=['GET'])
+def all_posts():
+    r = requests.get("http://jsonplaceholder.typicode.com/posts")
+    return jsonify(json.loads(r.text))
+
+
+@app.route('/external/albums', methods=['GET'])
+def all_albums():
+    r = requests.get("http://jsonplaceholder.typicode.com/albums")
+    return jsonify(json.loads(r.text))
+
+
+@app.route('/external/photos', methods=['GET'])
+def all_photos():
+    r = requests.get("http://jsonplaceholder.typicode.com/photos")
+    return jsonify(json.loads(r.text))
+
+
+@app.route('/external/albums_w_photos', methods=['GET'])
+def album_w_photos():
+    # TODO optimize method
+    ra = requests.get("http://jsonplaceholder.typicode.com/albums")
+    rp = requests.get("http://jsonplaceholder.typicode.com/photos")
+    album_list = json.loads(ra.text)
+    photo_list = json.loads(rp.text)
+    for album in album_list:
+        album['photos'] = [ph for ph in photo_list if ph['albumId'] == album['id']]
+    return jsonify(album_list)
+
+
 
 if __name__ == '__main__':
     app.run()
