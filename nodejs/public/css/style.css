@@ -1,0 +1,16 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(2n){
+  background-color: #bbbbbb;
+}
+
+tr:nth-child(2n+1) {
+  background-color: aliceblue;
+}
+
+tr:first-child {
+  background-color: white;
+}
