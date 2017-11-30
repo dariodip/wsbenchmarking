@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All User Query</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div>
+    <h1>All Users Info</h1>
+    <table style="width: 100%">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>surname</th>
+            <th>city id</th>
+        </tr>
+        {% for user in users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.name | capitalize }}</td>
+            <td>{{ user.surname | capitalize }}</td>
+            <td>{{ user.city }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+</html>
