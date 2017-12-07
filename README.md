@@ -1,4 +1,4 @@
-# restbenchmarking
+# wsbenchmarking
 Benchmarking of a simple web server developed using different programming languages and frameworks.
 
 This project was developed for the project of Wireless Networks at Università degli Studi di Salerno.
