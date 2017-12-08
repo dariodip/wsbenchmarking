@@ -18,9 +18,9 @@ Both the WSs use an SQLite database preloaded with data generated from [Generate
 
 Both the WSs retrieve data from the external source [JSONPlaceholder](https://jsonplaceholder.typicode.com/). The retrieved data have the following schema:
 
--`post(userId, id, title, body)`;
--`album(userId, id, title)`;
--`photo(albumId, id, title, url, thumbnailUrl)`.
+- `post(userId, id, title, body)`;
+- `album(userId, id, title)`;
+- `photo(albumId, id, title, url, thumbnailUrl)`.
 
 ### Python Flask
 
