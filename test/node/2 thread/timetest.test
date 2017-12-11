@@ -1,0 +1,321 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,Hostname,IdleTime,Connect
+1512732966790,6,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,6,utf-8,MBP-di-Dario,0,1
+1512732966791,9,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,9,utf-8,MBP-di-Dario,0,0
+1512732966797,9,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,9,utf-8,MBP-di-Dario,0,0
+1512732966802,6,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,6,utf-8,MBP-di-Dario,0,0
+1512732966806,30,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,30,utf-8,MBP-di-Dario,0,0
+1512732966809,52,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,52,utf-8,MBP-di-Dario,0,0
+1512732966837,36,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,36,utf-8,MBP-di-Dario,0,0
+1512732966861,16,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,16,utf-8,MBP-di-Dario,0,0
+1512732966873,55,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,55,utf-8,MBP-di-Dario,0,0
+1512732966877,95,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,95,utf-8,MBP-di-Dario,0,0
+1512732966928,136,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,136,utf-8,MBP-di-Dario,0,0
+1512732967064,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732967066,2,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,2,utf-8,MBP-di-Dario,0,0
+1512732967068,86,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,86,utf-8,MBP-di-Dario,0,0
+1512732966972,191,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,191,utf-8,MBP-di-Dario,0,0
+1512732967164,2,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732967166,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732967154,14,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,14,utf-8,MBP-di-Dario,0,0
+1512732967168,16,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,16,utf-8,MBP-di-Dario,0,0
+1512732967169,81,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,81,utf-8,MBP-di-Dario,0,0
+1512732967184,68,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,68,utf-8,MBP-di-Dario,0,0
+1512732967250,106,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,106,utf-8,MBP-di-Dario,0,0
+1512732967252,157,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,157,utf-8,MBP-di-Dario,0,0
+1512732967409,117,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,117,utf-8,MBP-di-Dario,0,0
+1512732967356,255,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,254,utf-8,MBP-di-Dario,0,0
+1512732967526,95,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,95,utf-8,MBP-di-Dario,0,0
+1512732967611,76,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,76,utf-8,MBP-di-Dario,0,0
+1512732967621,73,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,72,utf-8,MBP-di-Dario,0,0
+1512732967694,1343,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1342,utf-8,MBP-di-Dario,0,0
+1512732967687,1464,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1463,utf-8,MBP-di-Dario,0,0
+1512732969152,1478,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1475,utf-8,MBP-di-Dario,0,0
+1512732970631,3,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,3,utf-8,MBP-di-Dario,0,0
+1512732970634,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732970635,15,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732970650,5,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,5,utf-8,MBP-di-Dario,0,0
+1512732969037,1698,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1697,utf-8,MBP-di-Dario,0,1
+1512732970655,82,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,82,utf-8,MBP-di-Dario,0,0
+1512732970736,2,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732970738,4,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,4,utf-8,MBP-di-Dario,0,0
+1512732970742,14,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732970737,117,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,117,utf-8,MBP-di-Dario,0,0
+1512732970854,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732970856,2,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,2,utf-8,MBP-di-Dario,0,0
+1512732970756,103,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,103,utf-8,MBP-di-Dario,0,0
+1512732970858,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732970859,65,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,65,utf-8,MBP-di-Dario,0,0
+1512732970873,55,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,55,utf-8,MBP-di-Dario,0,0
+1512732970925,97,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,96,utf-8,MBP-di-Dario,0,0
+1512732971022,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732971023,39,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,39,utf-8,MBP-di-Dario,0,0
+1512732970928,162,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,162,utf-8,MBP-di-Dario,0,0
+1512732971062,43,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,43,utf-8,MBP-di-Dario,0,1
+1512732971090,140,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,139,utf-8,MBP-di-Dario,0,0
+1512732971106,126,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,126,utf-8,MBP-di-Dario,0,0
+1512732971232,66,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,65,utf-8,MBP-di-Dario,0,0
+1512732971230,156,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,156,utf-8,MBP-di-Dario,0,0
+1512732971298,109,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,109,utf-8,MBP-di-Dario,0,0
+1512732971385,90,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,90,utf-8,MBP-di-Dario,0,0
+1512732971407,129,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,129,utf-8,MBP-di-Dario,0,0
+1512732971536,197,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,197,utf-8,MBP-di-Dario,0,0
+1512732971475,937,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,936,utf-8,MBP-di-Dario,0,0
+1512732971734,1728,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1726,utf-8,MBP-di-Dario,0,0
+1512732972412,1258,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1256,utf-8,MBP-di-Dario,0,0
+1512732973670,1,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732973671,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732973673,15,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732973688,7,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,7,utf-8,MBP-di-Dario,0,0
+1512732973695,57,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,56,utf-8,MBP-di-Dario,0,0
+1512732973752,139,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,139,utf-8,MBP-di-Dario,0,0
+1512732973891,33,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,33,utf-8,MBP-di-Dario,0,0
+1512732973925,9,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,9,utf-8,MBP-di-Dario,0,0
+1512732973935,32,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,32,utf-8,MBP-di-Dario,0,0
+1512732973967,48,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,48,utf-8,MBP-di-Dario,0,0
+1512732974015,77,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,77,utf-8,MBP-di-Dario,0,0
+1512732974093,123,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,123,utf-8,MBP-di-Dario,0,0
+1512732974216,282,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,282,utf-8,MBP-di-Dario,0,0
+1512732974498,158,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,158,utf-8,MBP-di-Dario,0,0
+1512732973462,1349,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1347,utf-8,MBP-di-Dario,0,1
+1512732974811,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732974812,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732974813,14,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732974828,8,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,8,utf-8,MBP-di-Dario,0,0
+1512732974836,39,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,39,utf-8,MBP-di-Dario,0,0
+1512732974875,83,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,83,utf-8,MBP-di-Dario,0,0
+1512732974958,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732974960,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732974961,15,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732974976,3,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732974979,54,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,54,utf-8,MBP-di-Dario,0,0
+1512732975033,93,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,93,utf-8,MBP-di-Dario,0,0
+1512732975126,190,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,190,utf-8,MBP-di-Dario,0,0
+1512732975316,142,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,142,utf-8,MBP-di-Dario,0,0
+1512732974656,877,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,876,utf-8,MBP-di-Dario,0,0
+1512732975458,1168,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1167,utf-8,MBP-di-Dario,0,0
+1512732975533,1540,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1539,utf-8,MBP-di-Dario,0,0
+1512732977073,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732977075,0,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,0,utf-8,MBP-di-Dario,0,0
+1512732977076,14,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732977090,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732977093,46,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,46,utf-8,MBP-di-Dario,0,0
+1512732977139,93,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,93,utf-8,MBP-di-Dario,0,0
+1512732977232,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732977234,2,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,2,utf-8,MBP-di-Dario,0,0
+1512732977236,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732977251,4,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732977255,47,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,47,utf-8,MBP-di-Dario,0,0
+1512732977302,102,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,101,utf-8,MBP-di-Dario,0,0
+1512732977404,185,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,185,utf-8,MBP-di-Dario,0,0
+1512732976627,1047,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1044,utf-8,MBP-di-Dario,0,0
+1512732977674,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732977675,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732977676,17,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,17,utf-8,MBP-di-Dario,0,0
+1512732977693,5,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,5,utf-8,MBP-di-Dario,0,0
+1512732977589,112,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,112,utf-8,MBP-di-Dario,0,0
+1512732977698,45,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,45,utf-8,MBP-di-Dario,0,0
+1512732977744,79,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,79,utf-8,MBP-di-Dario,0,0
+1512732977823,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732977824,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732977825,16,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,16,utf-8,MBP-di-Dario,0,0
+1512732977841,2,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,2,utf-8,MBP-di-Dario,0,0
+1512732977844,49,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,49,utf-8,MBP-di-Dario,0,0
+1512732977894,119,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,118,utf-8,MBP-di-Dario,0,0
+1512732978013,176,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,176,utf-8,MBP-di-Dario,0,0
+1512732978190,153,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,153,utf-8,MBP-di-Dario,0,0
+1512732977702,995,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,993,utf-8,MBP-di-Dario,0,0
+1512732978343,1545,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1544,utf-8,MBP-di-Dario,0,0
+1512732978697,1276,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1275,utf-8,MBP-di-Dario,0,0
+1512732979973,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,1
+1512732979975,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732979976,15,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732979991,10,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,10,utf-8,MBP-di-Dario,0,0
+1512732980001,41,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,41,utf-8,MBP-di-Dario,0,0
+1512732980042,82,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,82,utf-8,MBP-di-Dario,0,0
+1512732980124,1,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732980125,2,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,2,utf-8,MBP-di-Dario,0,0
+1512732980127,14,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732980141,4,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732980145,51,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,51,utf-8,MBP-di-Dario,0,0
+1512732980197,93,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,93,utf-8,MBP-di-Dario,0,0
+1512732980290,136,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,136,utf-8,MBP-di-Dario,0,0
+1512732980427,111,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,111,utf-8,MBP-di-Dario,0,0
+1512732979888,1094,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1092,utf-8,MBP-di-Dario,0,0
+1512732980982,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732980983,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732980984,14,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732980998,4,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732981002,39,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,39,utf-8,MBP-di-Dario,0,0
+1512732981041,84,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,84,utf-8,MBP-di-Dario,0,0
+1512732981125,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732981126,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732981127,16,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,16,utf-8,MBP-di-Dario,0,0
+1512732981143,3,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732981147,52,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,52,utf-8,MBP-di-Dario,0,0
+1512732981199,100,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,100,utf-8,MBP-di-Dario,0,0
+1512732981299,202,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,202,utf-8,MBP-di-Dario,0,0
+1512732980538,1039,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1037,utf-8,MBP-di-Dario,0,0
+1512732981502,104,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,104,utf-8,MBP-di-Dario,0,0
+1512732981578,1402,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1401,utf-8,MBP-di-Dario,0,0
+1512732982980,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,1
+1512732982982,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732982983,15,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732982998,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732981606,1460,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1458,utf-8,MBP-di-Dario,0,0
+1512732983001,66,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,66,utf-8,MBP-di-Dario,0,0
+1512732983068,99,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,99,utf-8,MBP-di-Dario,0,0
+1512732983168,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732983170,1,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732983171,16,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,16,utf-8,MBP-di-Dario,0,0
+1512732983187,4,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732983191,51,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,51,utf-8,MBP-di-Dario,0,0
+1512732983242,96,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,95,utf-8,MBP-di-Dario,0,0
+1512732983338,115,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,115,utf-8,MBP-di-Dario,0,0
+1512732983454,102,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,102,utf-8,MBP-di-Dario,0,0
+1512732983066,1287,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1286,utf-8,MBP-di-Dario,0,0
+1512732984353,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732984354,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732984355,15,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732984370,3,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732984373,38,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,38,utf-8,MBP-di-Dario,0,0
+1512732984411,90,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,90,utf-8,MBP-di-Dario,0,0
+1512732984501,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732984502,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732984504,15,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732984519,3,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732984523,46,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,46,utf-8,MBP-di-Dario,0,0
+1512732984569,105,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,104,utf-8,MBP-di-Dario,0,0
+1512732984674,139,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,139,utf-8,MBP-di-Dario,0,0
+1512732983556,1258,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1255,utf-8,MBP-di-Dario,0,0
+1512732984814,73,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,73,utf-8,MBP-di-Dario,0,0
+1512732984887,1230,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1229,utf-8,MBP-di-Dario,0,0
+1512732984814,2480,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,2479,utf-8,MBP-di-Dario,0,0
+1512732987293,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732987295,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732987297,15,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732987312,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732987316,40,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,40,utf-8,MBP-di-Dario,0,0
+1512732987356,85,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,85,utf-8,MBP-di-Dario,0,0
+1512732987441,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732987443,1,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732987444,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732987459,4,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732987463,53,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,52,utf-8,MBP-di-Dario,0,0
+1512732987516,94,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,94,utf-8,MBP-di-Dario,0,0
+1512732986117,1565,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1540,utf-8,MBP-di-Dario,0,0
+1512732987681,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732987682,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732987683,15,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732987698,3,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732987610,137,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,137,utf-8,MBP-di-Dario,0,0
+1512732987701,48,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,48,utf-8,MBP-di-Dario,0,0
+1512732987749,89,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,88,utf-8,MBP-di-Dario,0,0
+1512732987838,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732987839,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732987840,15,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732987855,8,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,8,utf-8,MBP-di-Dario,0,0
+1512732987747,158,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,158,utf-8,MBP-di-Dario,0,0
+1512732987864,53,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,53,utf-8,MBP-di-Dario,0,0
+1512732987917,118,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,118,utf-8,MBP-di-Dario,0,0
+1512732988035,132,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,132,utf-8,MBP-di-Dario,0,0
+1512732988167,104,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,104,utf-8,MBP-di-Dario,0,1
+1512732987905,1650,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1649,utf-8,MBP-di-Dario,0,0
+1512732988271,2040,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,2038,utf-8,MBP-di-Dario,0,0
+1512732989556,1143,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1141,utf-8,MBP-di-Dario,0,0
+1512732990699,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732990701,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732990702,14,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732990717,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732990721,40,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,40,utf-8,MBP-di-Dario,0,0
+1512732990761,97,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,97,utf-8,MBP-di-Dario,0,0
+1512732990858,1,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732990860,2,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,2,utf-8,MBP-di-Dario,0,0
+1512732990862,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732990877,3,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732990881,49,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,48,utf-8,MBP-di-Dario,0,0
+1512732990930,106,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,106,utf-8,MBP-di-Dario,0,0
+1512732991037,233,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,233,utf-8,MBP-di-Dario,0,0
+1512732991270,147,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,146,utf-8,MBP-di-Dario,0,0
+1512732990311,1106,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1104,utf-8,MBP-di-Dario,0,0
+1512732991418,2,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732991420,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732991421,14,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732991435,3,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732991439,43,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,43,utf-8,MBP-di-Dario,0,0
+1512732991483,116,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,115,utf-8,MBP-di-Dario,0,0
+1512732991600,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732991601,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732991603,14,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732991618,3,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732991621,60,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,60,utf-8,MBP-di-Dario,0,0
+1512732991681,116,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,116,utf-8,MBP-di-Dario,0,0
+1512732991797,179,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,179,utf-8,MBP-di-Dario,0,0
+1512732991976,128,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,128,utf-8,MBP-di-Dario,0,0
+1512732991417,840,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,839,utf-8,MBP-di-Dario,0,0
+1512732992104,1348,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1347,utf-8,MBP-di-Dario,0,0
+1512732992258,1882,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1880,utf-8,MBP-di-Dario,0,0
+1512732994140,1,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732994141,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732994142,14,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732994157,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732994160,56,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,56,utf-8,MBP-di-Dario,0,0
+1512732994216,111,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,111,utf-8,MBP-di-Dario,0,0
+1512732994327,1,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732994329,1,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732994330,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732994345,4,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,4,utf-8,MBP-di-Dario,0,0
+1512732994349,70,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,70,utf-8,MBP-di-Dario,0,0
+1512732994420,99,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,99,utf-8,MBP-di-Dario,0,0
+1512732993452,1170,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1169,utf-8,MBP-di-Dario,0,0
+1512732994622,1,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732994623,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732994625,15,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732994641,3,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732994519,169,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,169,utf-8,MBP-di-Dario,0,0
+1512732994644,46,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,46,utf-8,MBP-di-Dario,0,0
+1512732994690,92,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,92,utf-8,MBP-di-Dario,0,0
+1512732994782,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732994784,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732994785,16,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,16,utf-8,MBP-di-Dario,0,0
+1512732994802,2,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,2,utf-8,MBP-di-Dario,0,0
+1512732994688,160,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,160,utf-8,MBP-di-Dario,0,0
+1512732994805,55,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,54,utf-8,MBP-di-Dario,0,0
+1512732994860,91,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,91,utf-8,MBP-di-Dario,0,0
+1512732994951,111,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,111,utf-8,MBP-di-Dario,0,0
+1512732995062,101,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,101,utf-8,MBP-di-Dario,0,0
+1512732994848,1088,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1087,utf-8,MBP-di-Dario,0,0
+1512732995164,1408,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1407,utf-8,MBP-di-Dario,0,0
+1512732995937,1418,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1417,utf-8,MBP-di-Dario,0,0
+1512732997355,2,Hello World,200,OK,Main Group 1-2,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,1
+1512732997359,1,Hello User,200,OK,Main Group 1-2,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732997360,14,Fibonacci 30,200,OK,Main Group 1-2,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732997375,3,Single user,200,OK,Main Group 1-2,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732997378,40,All Users,200,OK,Main Group 1-2,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,40,utf-8,MBP-di-Dario,0,0
+1512732997418,90,Users with cities,200,OK,Main Group 1-2,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,90,utf-8,MBP-di-Dario,0,0
+1512732997508,2,Hello World (page),200,OK,Main Group 1-2,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732997510,1,Hello User (page),200,OK,Main Group 1-2,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732997511,15,Fibonacci 30 (page),200,OK,Main Group 1-2,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,15,utf-8,MBP-di-Dario,0,0
+1512732997526,3,Single user (page),200,OK,Main Group 1-2,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,3,utf-8,MBP-di-Dario,0,0
+1512732997529,53,All Users (page),200,OK,Main Group 1-2,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,53,utf-8,MBP-di-Dario,0,0
+1512732997583,100,Users with cities (page),200,OK,Main Group 1-2,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,99,utf-8,MBP-di-Dario,0,0
+1512732996572,1188,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1187,utf-8,MBP-di-Dario,0,0
+1512732997760,2,Hello World,200,OK,Main Group 1-1,text,true,,229,133,2,2,http://127.0.0.1:3000/api/hello_world,,2,utf-8,MBP-di-Dario,0,0
+1512732997762,1,Hello User,200,OK,Main Group 1-1,text,true,,231,135,2,2,http://127.0.0.1:3000/api/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732997763,13,Fibonacci 30,200,OK,Main Group 1-1,text,true,,235,127,2,2,http://127.0.0.1:3000/api/fib30,,13,utf-8,MBP-di-Dario,0,0
+1512732997778,2,Single user,200,OK,Main Group 1-1,text,true,,277,133,2,2,http://127.0.0.1:3000/api/single_user,,2,utf-8,MBP-di-Dario,0,0
+1512732997683,136,Posts,200,OK,Main Group 1-2,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,136,utf-8,MBP-di-Dario,0,0
+1512732997780,41,All Users,200,OK,Main Group 1-1,text,true,,59574,131,2,2,http://127.0.0.1:3000/api/all_users,,41,utf-8,MBP-di-Dario,0,0
+1512732997821,102,Users with cities,200,OK,Main Group 1-1,text,true,,133045,139,2,2,http://127.0.0.1:3000/api/users_with_cities,,101,utf-8,MBP-di-Dario,0,0
+1512732997923,1,Hello World (page),200,OK,Main Group 1-1,text,true,,374,129,2,2,http://127.0.0.1:3000/hello_world,,1,utf-8,MBP-di-Dario,0,0
+1512732997924,1,Hello User (page),200,OK,Main Group 1-1,text,true,,389,131,2,2,http://127.0.0.1:3000/hello/Utenzio,,1,utf-8,MBP-di-Dario,0,0
+1512732997926,14,Fibonacci 30 (page),200,OK,Main Group 1-1,text,true,,385,123,2,2,http://127.0.0.1:3000/fib30,,14,utf-8,MBP-di-Dario,0,0
+1512732997940,9,Single user (page),200,OK,Main Group 1-1,text,true,,398,129,2,2,http://127.0.0.1:3000/single_user,,9,utf-8,MBP-di-Dario,0,0
+1512732997820,174,Albums,200,OK,Main Group 1-2,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,174,utf-8,MBP-di-Dario,0,0
+1512732997949,57,All Users (page),200,OK,Main Group 1-1,text,true,,165970,127,2,2,http://127.0.0.1:3000/all_users,,57,utf-8,MBP-di-Dario,0,0
+1512732998007,121,Users with cities (page),200,OK,Main Group 1-1,text,true,,262890,135,2,2,http://127.0.0.1:3000/users_with_cities,,120,utf-8,MBP-di-Dario,0,0
+1512732998128,116,Posts,200,OK,Main Group 1-1,text,true,,24736,132,2,2,http://127.0.0.1:3000/external/posts,,116,utf-8,MBP-di-Dario,0,0
+1512732998244,85,Albums,200,OK,Main Group 1-1,text,true,,7148,133,2,2,http://127.0.0.1:3000/external/albums,,85,utf-8,MBP-di-Dario,0,0
+1512732997995,1516,Photos,200,OK,Main Group 1-2,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1515,utf-8,MBP-di-Dario,0,0
+1512732998329,1287,Photos,200,OK,Main Group 1-1,text,true,,811690,133,2,2,http://127.0.0.1:3000/external/photos,,1286,utf-8,MBP-di-Dario,0,0
+1512732999511,1252,Photos and albums,200,OK,Main Group 1-2,text,true,,819721,142,2,2,http://127.0.0.1:3000/external/albums_w_photos,,1250,utf-8,MBP-di-Dario,0,1
+1512732999616,1436,Photos and albums,200,OK,Main Group 1-1,text,true,,819721,142,1,1,http://127.0.0.1:3000/external/albums_w_photos,,1435,utf-8,MBP-di-Dario,0,0
