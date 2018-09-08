@@ -3,18 +3,18 @@ Benchmarking of a simple web server developed using different programming langua
 
 This project was developed for the project of Wireless Networks at Università degli Studi di Salerno.
 
-In this project we developed two WSs having the same API and, as far as possible, the same structure. We did a simple benchmark on both these WSs in order to retrieve their efficiency on different scenarios.
+In this project I developed two WSs having the same API and, as far as possible, the same structure. I did a simple benchmark on both these WSs in order to retrieve their efficiency on different scenarios.
 
 The purpose of this project was to compare the efficiency between different web servers on small projects (e.g. to be used for microservice development). 
 
 ## Project structure
 
-We implemented the same API both on [Python's Flask](http://flask.pocoo.org/) and in [Node.js' Express](http://expressjs.com/).
+I implemented the same API both on [Python's Flask](http://flask.pocoo.org/) and in [Node.js' Express](http://expressjs.com/).
 
 Both the WSs use an SQLite database preloaded with data generated from [Generate Data](https://www.generatedata.com/). The db has the following tables:
 
 - `city(id, name, post_code, region)`: contains 300 cities;
-- `person(id, name, surname, city_id)`: contains 1000 persons. `city_id` is the foreign key for `id` of the table `city`.
+- `person(id, name, surname, city_id)`: contains 1000 people. `city_id` is the foreign key for `id` of the table `city`.
 
 Both the WSs retrieve data from the external source [JSONPlaceholder](https://jsonplaceholder.typicode.com/). The retrieved data have the following schema:
 
@@ -30,7 +30,7 @@ The WS has been developed using [Python 3.6](https://www.python.it/), [Flask 0.1
 
 #### Setup
 
-In order to install the WS and all his requirements you have to create a virtual environment using [venv](https://virtualenv.pypa.io/en/stable/) on Python 3.6.
+In order to install the WS and all its requirements you have to create a virtual environment using [venv](https://virtualenv.pypa.io/en/stable/) on Python 3.6.
 To install *virtualenv*, run the following:
 
 `[sudo] pip3 install virtualenv` on Linux/MacOS
@@ -73,7 +73,7 @@ After doing that, just type `npm install` in the project's directory.
 
 #### Run
 
-After installing the requirements, type `npm start` in the project's directory.
+After installing all the requirements, type `npm start` in the project's directory.
 
 ## API
 
